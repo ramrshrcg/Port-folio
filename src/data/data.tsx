@@ -117,7 +117,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Kathmandu, Nepal', Icon: MapIcon},
     {label: 'Age', text: '24', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Nepali', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Motorcycles', Icon: SparklesIcon},
     {label: 'Study', text: 'Tribhuvan University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Student / Freelancer', Icon: BuildingOffice2Icon},
   ],
