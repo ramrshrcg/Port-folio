@@ -15,9 +15,9 @@ import heroImage from '../images/header-background.webp';
 
 
 
-import {SiReact, SiTypescript, SiNodedotjs, SiFlutter, SiMongodb,SiNumpy, SiPandas,SiPython} from 'react-icons/si';
-import {MdInsertChart, MdAnalytics} from 'react-icons/md';
-import {BsDatabaseFill} from 'react-icons/bs';
+import { SiReact, SiTypescript, SiNodedotjs, SiFlutter, SiMongodb, SiNumpy, SiPandas, SiPython } from 'react-icons/si';
+import { MdInsertChart, MdAnalytics } from 'react-icons/md';
+import { BsDatabaseFill } from 'react-icons/bs';
 
 
 import porfolioImage1 from '../images/portfolio/Asymmetrical Fringe Cut.png';
@@ -87,13 +87,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-     Computer Engineering student with a strong interest in data science, machine learning, and low-resource language processing. Experienced in data analysis, SQL, and visualization, with hands-on project work in AI applications. A fast learner with a passion for building practical and impactful technology solutions.
+        Computer Engineering student with a strong interest in data science, machine learning, and low-resource language processing. Experienced in data analysis, SQL, and visualization, with hands-on project work in AI applications. A fast learner with a passion for building practical and impactful technology solutions.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/cv.pdf?v=2',
+      href: '/assets/Ram_chandra_cv.pdf?v=2',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -114,12 +114,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Computer Engineering student with a strong interest in data science, machine learning, and low-resource language processing. Experienced in data analysis, SQL, and visualization, with hands-on project work in AI applications. A fast learner with a passion for building practical and impactful technology solutions.`,
   aboutItems: [
-    {label: 'Location', text: 'Kathmandu, Nepal', Icon: MapIcon},
-    {label: 'Age', text: '24', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Nepali', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles', Icon: SparklesIcon},
-    {label: 'Study', text: 'Tribhuvan University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Student / Freelancer', Icon: BuildingOffice2Icon},
+    { label: 'Location', text: 'Kathmandu, Nepal', Icon: MapIcon },
+    { label: 'Age', text: '24', Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Nepali', Icon: FlagIcon },
+    { label: 'Interests', text: 'Motorcycles', Icon: SparklesIcon },
+    { label: 'Study', text: 'Tribhuvan University', Icon: AcademicCapIcon },
+    { label: 'Employment', text: 'Student / Freelancer', Icon: BuildingOffice2Icon },
   ],
 };
 
@@ -178,30 +178,30 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-  name: 'Data science',
-  skills: [
-    {
-      name: 'Python',
-      icon: SiPython,
-    },
-    {
-      name: 'NumPy',
-      icon: SiNumpy,
-    },
-    {
-      name: 'Pandas',
-      icon: SiPandas,
-    },
-    {
-      name: 'Data visualization',
-      icon: MdInsertChart,
-    },
-    {
-      name: 'Data analytics',
-      icon: MdAnalytics,
-    },
-  ],
-},
+    name: 'Data science',
+    skills: [
+      {
+        name: 'Python',
+        icon: SiPython,
+      },
+      {
+        name: 'NumPy',
+        icon: SiNumpy,
+      },
+      {
+        name: 'Pandas',
+        icon: SiPandas,
+      },
+      {
+        name: 'Data visualization',
+        icon: MdInsertChart,
+      },
+      {
+        name: 'Data analytics',
+        icon: MdAnalytics,
+      },
+    ],
+  },
 ];
 /**
  * Portfolio section
@@ -217,9 +217,9 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Nepali Corpus and Dataset',
     description: 'A collection of Nepali language datasets and corpora for natural language processing tasks. This project includes a variety of text data, such as news articles, social media posts, and conversational data, which can be used for training and evaluating machine learning models for Nepali language processing.',
     url: 'https://huggingface.co/datasets/gluclose-D/nepali-news-scraped',
-    image: porfolioImage2, 
+    image: porfolioImage2,
   }
-  
+
 ];
 
 /**
@@ -322,12 +322,12 @@ export const testimonial: TestimonialSection = {
 
 
 //links of social media and contact
-const href={
-    mail_href:'mailto:ramrshrcg@gmail.com',
-    location_href: 'https://www.google.ca/maps/place/Kathmandu,+Nepal/@27.7172451,85.3241866,12z/data=!3m1!4b1!4m5!3m4!1s0x39eb190e419d9c8f:0x2d2cfcaa7a9e6c8c!8m2!3d27.7172451!4d85.3239605',
-    insta_href: 'https://www.instagram.com/ghimire_ramesh__/',
-    github_href: 'https://github.com/ramrshrcg',
-    linkedin_href: 'https://www.linkedin.com/ram-chandra-ghimire-14b31516b/'
+const href = {
+  mail_href: 'mailto:ramrshrcg@gmail.com',
+  location_href: 'https://www.google.ca/maps/place/Kathmandu,+Nepal/@27.7172451,85.3241866,12z/data=!3m1!4b1!4m5!3m4!1s0x39eb190e419d9c8f:0x2d2cfcaa7a9e6c8c!8m2!3d27.7172451!4d85.3239605',
+  insta_href: 'https://www.instagram.com/ghimire_ramesh__/',
+  github_href: 'https://github.com/ramrshrcg',
+  linkedin_href: 'https://www.linkedin.com/ram-chandra-ghimire-14b31516b/'
 };
 
 /**
@@ -348,18 +348,18 @@ export const contact: ContactSection = {
       text: 'Kathmandu, Nepal',
       href: href.location_href,
     },
-      
+
     {
       type: ContactType.Instagram,
       text: '@ghimire_ramesh__',
       href: href.insta_href,
-      
+
     },
     {
       type: ContactType.Github,
       text: 'ramrshrcg',
       href: href.github_href,
-     
+
     },
     {
       type: ContactType.LinkedIn,
@@ -373,9 +373,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: href.github_href},
+  { label: 'Github', Icon: GithubIcon, href: href.github_href },
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: href.linkedin_href},
-  {label: 'Instagram', Icon: InstagramIcon, href: href.insta_href},
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: href.linkedin_href },
+  { label: 'Instagram', Icon: InstagramIcon, href: href.insta_href },
   // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
