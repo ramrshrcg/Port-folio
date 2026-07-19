@@ -2,7 +2,7 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
+  // CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
@@ -87,7 +87,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Computer Engineering student with a strong interest in data science, machine learning, and low-resource language processing. Experienced in data analysis, SQL, and visualization, with hands-on project work in AI applications. A fast learner with a passion for building practical and impactful technology solutions.
+        I am a Computer Engineering student with a strong interest in data science and machine learning.I have developed an  experience in data analysis, SQL, and visualization, with hands-on project work in AI applications. Moreover, I have handful experience in fullstack development. A fast learner with a passion for building practical and impactful technology solutions.
       </p>
     </>
   ),
@@ -112,10 +112,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Computer Engineering student with a strong interest in data science, machine learning, and low-resource language processing. Experienced in data analysis, SQL, and visualization, with hands-on project work in AI applications. A fast learner with a passion for building practical and impactful technology solutions.`,
+  description: ` I am a Computer Engineering student with a strong interest in data science and machine learning.I have developed an  experience in data analysis, SQL, and visualization, with hands-on project work in AI applications. Moreover, I have handful experience in fullstack development. A fast learner with a passion for building practical and impactful technology solutions.`,
   aboutItems: [
     { label: 'Location', text: 'Kathmandu, Nepal', Icon: MapIcon },
-    { label: 'Age', text: '24', Icon: CalendarIcon },
+    // { label: 'Age', text: '24', Icon: CalendarIcon },
     { label: 'Nationality', text: 'Nepali', Icon: FlagIcon },
     { label: 'Interests', text: 'Motorcycles', Icon: SparklesIcon },
     { label: 'Study', text: 'Tribhuvan University', Icon: AcademicCapIcon },
