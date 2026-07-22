@@ -14,10 +14,11 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 
 
-
+//inport icons from react-icons
 import { SiReact, SiTypescript, SiNodedotjs, SiFlutter, SiMongodb, SiNumpy, SiPandas, SiPython } from 'react-icons/si';
 import { MdInsertChart, MdAnalytics } from 'react-icons/md';
 import { BsDatabaseFill } from 'react-icons/bs';
+import {SiGithubactions, SiDocker} from 'react-icons/si';
 
 
 import porfolioImage1 from '../images/portfolio/Asymmetrical Fringe Cut.png';
@@ -162,6 +163,13 @@ export const skills: SkillGroup[] = [
         name: 'Flutter',
         icon: SiFlutter,
       },
+    ],
+  },
+  {
+    name: 'CI/CD',
+    skills: [
+      {name: 'GitHub Actions', icon: SiGithubactions},
+      {name: 'Docker', icon: SiDocker},
     ],
   },
   {
